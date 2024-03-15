@@ -2,10 +2,6 @@ import json
 import pygame
 from operator import itemgetter
 
-pygame.init()
-screen = pygame.display.set_mode((1280, 720))
-clock = pygame.time.Clock()
-running = True
 
 data_name = input("give me the name of the data\n")
 
@@ -15,6 +11,11 @@ with open(data_name) as f:
 data_param = input("give me the parameter to sort the data\n")
 
 sorted_data = sorted(data, key=lambda x: x[data_param])
+
+pygame.init()
+screen = pygame.display.set_mode((1280, 720))
+clock = pygame.time.Clock()
+running = True
 
 while running:
     # poll for events
