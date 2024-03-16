@@ -17,6 +17,8 @@ The random datasets are:
 - Longitude
 - Battles Won
 - Battles Lost
+- IQ
+- Scolarship
 
 ### Rates:
 
