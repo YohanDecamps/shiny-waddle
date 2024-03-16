@@ -1,3 +1,3 @@
 class Config:
-    DATAS=["Corruption"]
-    INVERT={"Corruption": True}
+    DATAS=["Corruption", "Obesity"]
+    INVERT={"Corruption": True, "Obesity": False}
